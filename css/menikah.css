@@ -3,19 +3,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Carattere&family=Roboto+Condensed:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Carattere&family=Gothic+A1:wght@100&family=Roboto+Condensed:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Amatic+SC&family=Carattere&family=Roboto+Condensed:wght@300&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400;500&display=swap");
 
-/* ===== BẢNG MÀU PASTEL SANG TRỌNG ===== */
+/* ===== MÀU SẮC GỐC ===== */
 :root {
-  --primary-pink: #F8D7DA;      /* Hồng nhạt */
-  --accent-pink: #E8B4B8;       /* Hồng trung bình */
-  --dark-pink: #D4949B;         /* Hồng đậm */
-  --pale-yellow: #FEF3E0;       /* Vàng nhạt */
-  --soft-white: #FBF8F6;        /* Trắng mềm */
-  --sage-green: #C9D6C8;        /* Xanh nhạt */
-  --elegant-dark: #5C4B54;      /* Nâu sang trọng */
-  --gold-accent: #D4AF9D;       /* Vàng hồng */
-  --swiper-color: #D4949B;
+  --primary-pink: #295138;      /* Xanh lá gốc */
+  --accent-pink: #7B9B7C;       /* Xanh nhạt */
+  --dark-pink: #4A6B4C;         /* Xanh đậm */
+  --pale-yellow: #FFFFFF;       /* Trắng */
+  --soft-white: #F9F9F9;        /* Xám nhạt */
+  --sage-green: #295138;        /* Xanh lá */
+  --elegant-dark: #295138;      /* Xanh đậm */
+  --gold-accent: #7B9B7C;       /* Xanh nhạt */
+  --swiper-color: #295138;
 }
 
 .has-vertically-aligned-content {
@@ -26,13 +25,11 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Lora', serif;
-  font-display: swap;
+  font-family: 'Amatic SC', 'Agbalumo', 'Carattere', cursive;
 }
 
 html {
-  font-family: 'Lora', serif;
-  font-size: clamp(14px, 2vw, 16px);
+  font-family: 'Amatic SC', cursive;
   width: 100%;
   min-height: 100%;
   background-color: var(--soft-white);
@@ -124,7 +121,7 @@ h2 {
   background-attachment: fixed;
   color: #ffffff;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  font-family: 'Lora', serif;
+  font-family: 'Amatic SC', cursive;
   text-shadow: 2px 2px 6px rgba(92, 75, 84, 0.8);
   position: relative;
   overflow: hidden;
@@ -153,8 +150,8 @@ h2 {
 }
 
 .hero .title {
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
+  font-family: 'Amatic SC', 'Carattere', cursive;
+  font-weight: 400;
   font-size: 3.5rem;
   padding-bottom: 0.5rem;
   color: var(--elegant-dark);
@@ -169,7 +166,7 @@ h2 {
 }
 
 .hero .subtitle {
-  font-family: 'Lora', serif;
+  font-family: 'Amatic SC', 'Carattere', cursive;
   padding: 2rem 1rem;
   color: var(--elegant-dark);
   font-size: 1.1rem;
@@ -270,7 +267,7 @@ h2 {
 
 .main-content {
   color: var(--elegant-dark);
-  font-family: 'Lora', serif;
+  font-family: 'Amatic SC', cursive;
   background: linear-gradient(to bottom, var(--soft-white), var(--pale-yellow));
 }
 
@@ -324,8 +321,8 @@ h2 {
 }
 
 .main-content .section-title {
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
+  font-family: 'Amatic SC', 'Carattere', cursive;
+  font-weight: 400;
   color: var(--elegant-dark);
   text-transform: uppercase;
   font-size: 2.2rem;
@@ -354,42 +351,42 @@ h2 {
 }
 
 .nama-lengkap {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Amatic SC', 'Carattere', cursive;
   color: var(--elegant-dark);
   font-size: 3.5rem;
   letter-spacing: 2px;
   padding-bottom: 1rem;
   line-height: 1.2;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .waktu {
   font-size: 1.3rem;
-  font-family: 'Lora', serif;
+  font-family: 'Amatic SC', cursive;
   color: var(--elegant-dark);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .tanggal-angka {
   font-size: 4.5rem;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Amatic SC', 'Carattere', cursive;
   color: var(--accent-pink);
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1;
   text-shadow: 1px 1px 3px rgba(92, 75, 84, 0.1);
 }
 
 .tanggal-angka1 {
   font-size: 2.5rem;
-  font-family: 'Lora', serif;
+  font-family: 'Amatic SC', cursive;
   color: var(--elegant-dark);
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.2;
 }
 
 .tempat {
   font-size: 1.3rem;
-  font-family: 'Lora', serif;
+  font-family: 'Amatic SC', cursive;
   color: var(--elegant-dark);
   margin-bottom: 2rem;
   line-height: 1.8;
@@ -427,7 +424,7 @@ h2 {
   font-weight: 400;
   font-size: 1rem;
   margin: 0.5rem 0;
-  font-family: 'Lora', serif;
+  font-family: 'Amatic SC', cursive;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -851,17 +848,17 @@ body.preloader-site {
 }
 
 .textcustom {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Amatic SC', 'Carattere', cursive;
   color: var(--elegant-dark);
   font-size: 2.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
 .textcustoma {
-  font-family: 'Lora', serif;
+  font-family: 'Amatic SC', cursive;
   color: var(--elegant-dark);
   font-size: 1.1rem;
   margin-top: 1rem;
@@ -981,7 +978,7 @@ body.preloader-site {
   padding: 0.9rem 1rem;
   border: 2px solid rgba(212, 148, 155, 0.5);
   border-radius: 8px;
-  font-family: 'Lora', serif;
+  font-family: 'Amatic SC', cursive;
   font-size: 1rem;
   background-color: rgba(251, 248, 246, 0.8);
   color: var(--elegant-dark);
@@ -999,7 +996,7 @@ body.preloader-site {
 textarea.form-input {
   resize: vertical;
   min-height: 100px;
-  font-family: 'Lora', serif;
+  font-family: 'Amatic SC', cursive;
 }
 
 .radio-group {
@@ -1040,7 +1037,7 @@ textarea.form-input {
   border-radius: 8px;
   font-size: 1.1rem;
   font-weight: 600;
-  font-family: 'Lora', serif;
+  font-family: 'Amatic SC', cursive;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
   box-shadow: 0 8px 20px rgba(232, 180, 184, 0.4);
@@ -1195,7 +1192,7 @@ textarea.form-input {
 
 .qr-modal-content h2 {
   color: var(--elegant-dark);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Amatic SC', 'Carattere', cursive;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
