@@ -681,12 +681,13 @@ body.preloader-site {
 
 .tile {
   border-radius: 10px;
+  overflow: hidden;
 }
 
 
 .foto1 {
   background-image: url("../image/2.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
@@ -695,7 +696,7 @@ body.preloader-site {
 
 .foto2 {
   background-image: url("../image/10.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
@@ -703,7 +704,7 @@ body.preloader-site {
 
 .foto3 {
   background-image: url("../image/11.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   min-height: 24rem;
@@ -711,7 +712,7 @@ body.preloader-site {
 
 .foto4 {
   background-image: url("../image/3.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   min-height: 24rem;
@@ -719,7 +720,7 @@ body.preloader-site {
 
 .foto5 {
   background-image: url("../image/4.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
@@ -728,7 +729,7 @@ body.preloader-site {
 
 .foto6 {
   background-image: url("../image/5.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
@@ -736,7 +737,7 @@ body.preloader-site {
 
 .foto7 {
   background-image: url("../image/9.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
@@ -744,7 +745,7 @@ body.preloader-site {
 
 .foto8 {
   background-image: url("../image/6.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
@@ -752,7 +753,7 @@ body.preloader-site {
 
 .foto9 {
   background-image: url("../image/7.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
@@ -760,7 +761,7 @@ body.preloader-site {
 
 .foto10 {
   background-image: url("../image/8.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
@@ -768,7 +769,7 @@ body.preloader-site {
 
 .foto11 {
   background-image: url("../image/2.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
@@ -776,7 +777,7 @@ body.preloader-site {
 
 .foto12 {
   background-image: url("../image/3.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
@@ -784,7 +785,7 @@ body.preloader-site {
 
 .foto13 {
   background-image: url("../image/4.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
@@ -792,7 +793,7 @@ body.preloader-site {
 
 .foto14 {
   background-image: url("../image/5.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
@@ -1013,56 +1014,4 @@ body.preloader-site {
   font-weight: bold;
 }
 
-@media (max-width: 768px) {
-  .swiper-button-next,
-  .swiper-button-prev {
-    width: 40px;
-    height: 40px;
-    display: none;
-  }
-}
-
-/* Swiper Pagination (Dots) */
-.swiper-pagination {
-  bottom: 10px;
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-}
-
-.swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background: rgba(41, 81, 56, 0.5);
-  border-radius: 50%;
-  margin: 0 4px;
-  transition: all 0.4s ease;
-  cursor: pointer;
-}
-
-.swiper-pagination-bullet-active {
-  width: 28px;
-  background: #295138;
-  border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(41, 81, 56, 0.4);
-}
-
-/* Smooth animations for photo tiles */
-.tile.is-child.foto1,
-.tile.is-child.foto2,
-.tile.is-child.foto3,
-.tile.is-child.foto4,
-.tile.is-child.foto6,
-.tile.is-child.foto7,
-.tile.is-child.foto8,
-.tile.is-child.foto9,
-.tile.is-child.foto10 {
-  transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
-  transform: translateZ(0);
-  will-change: transform;
-}
-
-.tile.is-child:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 15px 40px rgba(92, 75, 84, 0.25);
-}
+/* NOTE: Detailed Swiper styling moved to css/swiper-custom.css to avoid conflicts */
