@@ -691,6 +691,7 @@ body.preloader-site {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
+  contain: layout style paint;
 }
 
 
@@ -700,6 +701,7 @@ body.preloader-site {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
+  contain: layout style paint;
 }
 
 .foto3 {
@@ -708,6 +710,7 @@ body.preloader-site {
   background-position: top;
   background-repeat: no-repeat;
   min-height: 24rem;
+  contain: layout style paint;
 }
 
 .foto4 {
@@ -716,6 +719,7 @@ body.preloader-site {
   background-position: top;
   background-repeat: no-repeat;
   min-height: 24rem;
+  contain: layout style paint;
 }
 
 .foto5 {
@@ -724,6 +728,7 @@ body.preloader-site {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
+  contain: layout style paint;
 }
 
 
@@ -733,6 +738,7 @@ body.preloader-site {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
+  contain: layout style paint;
 }
 
 .foto7 {
@@ -741,6 +747,7 @@ body.preloader-site {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
+  contain: layout style paint;
 }
 
 .foto8 {
@@ -749,6 +756,7 @@ body.preloader-site {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
+  contain: layout style paint;
 }
 
 .foto9 {
@@ -757,6 +765,7 @@ body.preloader-site {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
+  contain: layout style paint;
 }
 
 .foto10 {
@@ -765,6 +774,7 @@ body.preloader-site {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
+  contain: layout style paint;
 }
 
 .foto11 {
@@ -773,6 +783,7 @@ body.preloader-site {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
+  contain: layout style paint;
 }
 
 .foto12 {
@@ -781,6 +792,7 @@ body.preloader-site {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
+  contain: layout style paint;
 }
 
 .foto13 {
@@ -789,6 +801,7 @@ body.preloader-site {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
+  contain: layout style paint;
 }
 
 .foto14 {
@@ -797,6 +810,7 @@ body.preloader-site {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 24rem;
+  contain: layout style paint;
 }
 
 :root {
