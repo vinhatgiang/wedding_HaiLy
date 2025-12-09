@@ -441,6 +441,8 @@ h2 {
 }
 
 .footer {
+  position: relative; /* Đảm bảo ::before được định vị đúng */
+  overflow: hidden; /* Ẩn phần tử con bị tràn */
   bottom: 0;
   width: 100vw;
   padding: 15px 10px; /* Tăng padding để tạo khoảng trống */
