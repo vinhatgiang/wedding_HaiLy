@@ -45,7 +45,7 @@ const renderCalendar = () => {
     for (let i = 1; i <= lastDay; i++) {
         if (i === new Date().getDate() && date.getMonth() === new Date().getMonth()) {
             ngay += `<div class="today1">${i}</div>`
-        } else if (i === 19 && date.getMonth() === 3) {
+        } else if (i === 28 && date.getMonth() === 11) {
             ngay += `<div class="today">${i}</div>`
         } else {
             ngay += `<div class="">${i}</div>`
