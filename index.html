@@ -9,7 +9,7 @@
   <title>Đám cưới Hồng Hải - Cẩm Ly 29/12/2025</title>
   <meta property="og:title" content="Đám cưới Hồng Hải - Cẩm Ly 29/12/2025">
   <meta property="og:description" content="Hạnh Phúc Trọn Đời">
-  <meta property="og:image" content="" />
+  <meta property="og:image" content="https://vinhatgiang.github.io/wedding_HaiLy/image/2.jpg" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="824" />
   <meta property="og:image:height" content="426" />
@@ -50,6 +50,27 @@
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 
   <style>
+    /* Universal box-sizing for consistent layout */
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      overflow-x: hidden;
+      width: 100%;
+      max-width: 100vw; /* Explicitly limit to viewport width */
+      margin: 0; /* Remove default body margin */
+      padding: 0; /* Remove default body padding */
+    }
+
+    /* Ensure main content and other top-level sections are also constrained */
+    .header-wrapper,
+    section {
+      max-width: 100vw; /* Limit width to viewport */
+      overflow: hidden; /* Hide any internal overflow */
+    }
+
     /* Definisi gaya CSS */
 
     /* CSS Anda */
@@ -146,6 +167,12 @@
       stroke-width: 2;
       animation: moving 0.7s linear infinite alternate;
     }
+
+    .main-content {
+      max-width: 100vw; /* Limit width to viewport */
+      overflow: hidden;
+    }
+
   </style>
 </head>
 
